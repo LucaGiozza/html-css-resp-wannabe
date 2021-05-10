@@ -5,8 +5,12 @@
     margin-top: 100px;
   }
   body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+
     
-    margin: 0;
   }
 
   /* BLOCCO LEZIONI */
@@ -41,8 +45,9 @@
 
     .row{
         width: 95%;
-        margin: 0 0;
-
+        margin: 0;
+        overflow-x: hidden;
+       
 
         }
    }
@@ -64,7 +69,14 @@
     #steps .row>.right {
       float: none;
       width: 95%;
+      margin: 0;
     }
+    .row{
+        width: 95%;
+        margin: 0;
+
+
+        }
   }
 
   /* BLOCCO PERCHE */
@@ -82,19 +94,29 @@
   #why .row img {
     background-color: #428bca;
     border-radius: 50%;
-    padding: 30px
+    padding: 30px;
   }
   @media screen and (max-width:420px){
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
       width: 95%;
+      margin:0;
     }
     #why .row img {
-        background-color: #428bca;
+        
 
         padding: 0;
       }
+      #why{
+          background-color: #f2f2cd;
+      }
+      .row{
+        width: 95%;
+        margin: 0;
+
+
+        }
   }
 
   /* COMMON */
@@ -117,10 +139,7 @@
     clear: both;
   }
   
-  .body{
-      margin: 0;
-      padding: 0;
-  }
+ 
  
       
 
