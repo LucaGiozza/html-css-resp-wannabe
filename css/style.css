@@ -50,7 +50,31 @@
        
 
         }
+        /* per i tablet */
    }
+   @media screen and (min-width:800px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: auto;
+      float: none;
+      margin: 0;
+       }
+    #lezioni{
+        background-color: rgba(252, 208, 215, 0.6) ;
+        margin: 0 ;
+        padding: 0;
+    }
+
+    .row{
+        width: auto;
+        margin: auto;
+        overflow-x: hidden;
+       
+
+        }
+   }
+   
+
 
   /* BLOCCO STEPS */
   #steps .row>.left,
@@ -72,6 +96,12 @@
       margin: 0;
     }
     
+  }
+  /* per i tablet */
+  @media screen and (min-width:800px){
+    #steps{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 
   /* BLOCCO PERCHE */
@@ -96,7 +126,7 @@
     #why .row>.second,
     #why .row>.third {
       width: 95%;
-      margin:0;
+      
     }
     #why .row img {
         
@@ -108,6 +138,16 @@
       }
       
   }
+  /* per i tablet */
+  @media  screen and (min-width:800px) {
+  #why{
+      background-color: rgba(252, 208, 215, 0.6);
+  }
+      
+    }
+  }
+  
+    
 
   /* COMMON */
 
